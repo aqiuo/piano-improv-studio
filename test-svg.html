@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SVG测试</title>
+</head>
+<body>
+    <h1>SVG测试页面</h1>
+    
+    <h2>测试1: 内联SVG</h2>
+    <svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
+        <rect x="10" y="10" width="180" height="80" fill="#e8f4ff" stroke="#2d5aa0" stroke-width="2"/>
+        <text x="100" y="60" text-anchor="middle" font-family="Arial" font-size="16" fill="#2d5aa0">内联SVG测试</text>
+    </svg>
+    
+    <h2>测试2: 外部SVG文件</h2>
+    <img src="/images/simple-test.svg" alt="外部SVG测试" width="200" height="100">
+    
+    <h2>测试3: 直接访问SVG</h2>
+    <p>请访问: <a href="/images/simple-test.svg" target="_blank">/images/simple-test.svg</a></p>
+</body>
+</html> 
